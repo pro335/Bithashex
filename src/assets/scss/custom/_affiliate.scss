@@ -1,0 +1,23 @@
+.AffiliateBrandRow {
+    margin-top: 100px;
+}
+
+.AffiliateEachCell {
+    margin-top: 60px;
+}
+
+.ResourcesContentItem {
+    margin-top: 80px;
+    font-size: 21px;
+    line-height: 40px;
+    font-family: Poppins, Roboto, "Helvetica Neue";
+    color: #5f5e6c;
+    text-align: justify;
+}
+
+@media (max-width: 450px) {
+    .Affiliate {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+}

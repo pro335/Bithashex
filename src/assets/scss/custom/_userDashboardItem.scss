@@ -1,0 +1,39 @@
+.UserDashboardItem {
+    background-color: white !important;
+    font-family: Poppins, Roboto, "Helvetica Neue";
+}
+
+.UserDashboardTitleRow {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125) !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding: 20px 35px;
+}
+
+.UserDashboardItemTitle {
+    font-size: 23px;
+    font-weight: 700;
+    color: #1d275a;
+}
+
+.UserDashboardItemContent {
+    margin: 20px 35px 10px 35px;
+    font-size: 23px;
+}
+
+.UserDashboardItemSubContent {
+    margin: 0px 35px 20px 35px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+@media (max-width: 450px) {
+    .UserDashboardItem {
+        margin-top: 30px !important;
+    }
+
+    .UserDashboardItemContent {
+        margin: 20px 30px 10px 30px;
+        font-size: 23px;
+    }
+}

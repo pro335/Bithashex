@@ -1,0 +1,35 @@
+
+.Resources {
+    height: auto;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 100px;
+    padding-bottom: 250px;
+    background-color: #eff1fe;
+}
+
+.ResourcesContentItem {
+    margin-top: 50px;
+    font-size: 21px;
+    line-height: 40px;
+    font-family: Poppins, Roboto, "Helvetica Neue";
+    color: #5f5e6c;
+    text-align: justify;
+}
+
+@media (max-width: 450px) {
+    .Resources {
+        padding: 100px 20px !important;
+    }
+
+    .ResourcesDownloadPdfBtn {
+        margin-top: 20px;
+    }
+
+    .Component-root-50 {
+        font-size: 22px !important;
+        margin-right: 0px !important;
+        width: 110px !important;
+    }
+
+}

@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i);
+
+
+.News {
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    background-color: #eff1fe;
+}
+
+.NewsTitle {
+    margin-left: 50px;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Poppins, Roboto, "Helvetica Neue";
+    color: #1d275a;
+}
+
+.NewsSearch {
+    margin-right: 5rem !important;
+    font-size: 40px !important;
+    color: red !important;
+}
+
+.NewsBody {
+    margin-top: 250px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.NewsBodyRow {
+    margin-top: 200px !important;
+}
+
+.NewsBodyImage {
+    padding-left: 100px !important;
+    margin-top: -100px !important;
+}
+
+.NewsRight {
+    padding: 50px 80px 50px 80px !important;
+}
+
+.NewsRightName {
+    color: #1d275a;
+    margin-top: 20px !important;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: Poppins, Roboto, "Helvetica Neue";
+}
+
+.NewsRightAuthor {
+    color: #272738;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 35px;
+    font-family: Poppins, Roboto, "Helvetica Neue";
+}
+
+.NewsRightContent {
+    margin-top: 20px !important;
+    color: #272738;
+    font-size: 17.5px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: justify;
+    font-family: Poppins, Roboto, "Helvetica Neue";
+}
+
+.NewsRightReadMore {
+    color: #1d275a !important;
+    margin-top: 0px !important;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Poppins, Roboto, "Helvetica Neue";
+}
+
+@media (max-width: 450px) {
+
+    .News {
+        height: auto;
+        padding-top: 30px;
+        padding-bottom: 50px;
+        background-color: #eff1fe;
+    }
+
+    .NewsSearch {
+        margin-top: 30px !important;
+        margin-right: 0 !important;
+    }
+
+    .NewsBody {
+        margin: 50px 15px 20px 15px !important;
+    }
+
+    .NewsBodyRow {
+        margin-top: 50px !important;
+    }
+
+    .NewsBodyImageDiv {
+        padding: 0;
+    }
+    
+    .NewsBodyImage {
+        padding-left: 0 !important;
+        margin-top: 0 !important;
+    }
+
+    .NewsRight {
+        padding: 50px 10px 30px 10px !important;
+    }
+
+    .NewsRightContent {
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
+
+    .NewsRightReadMore {
+        margin-left: 30px !important;
+    }
+    
+}

@@ -1,0 +1,54 @@
+.UserDashboardRecentActivitiesRctCard {
+    margin-top: 0px !important;
+    height: 620px !important;
+}
+
+.rct-block-contentUserDashboardRecentActivities {
+  min-height: 540px !important;
+  max-height: 540px !important;
+  padding-left: 50px !important;
+  padding-right: 20px !important;
+  padding-top: 20px !important;
+  padding-bottom: 120px !important;
+}
+
+.rct-block-title-UserDashboardTradeHistoryRctCardHeadingDiv {
+    padding: 30px 45px 10px;
+    position: relative;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125) !important;
+    // @include border(1px solid, $gray-300, bottom);
+  .badge {
+    vertical-align: middle;
+  }
+    h4 {
+    margin-bottom: 0;
+    color: $block-title-color;
+    font-size: $block-title-font-size;
+    text-transform: $block-title-transform;
+    font-weight: $block-title-font-weight;
+    line-height: 30px;
+  }
+  .contextual-link {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    a {
+      color: $block-contextual-color;
+      font-size: $block-contextual-font-size;
+      margin-right: 15px;
+      &:hover {
+        color: $blue;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .UserDashboardRecentActivitiesRctCard {
+    margin-top: 30px !important;
+    height: 620px !important;
+  }
+}

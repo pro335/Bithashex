@@ -1,0 +1,48 @@
+.UserExchageRecentActivities {
+    margin-top: 80px !important;
+}
+
+.UserExchangeTableStatusRed {
+    background-color: red;
+    color: white;
+    font-size: 20px !important;
+    padding: 7px 18px !important;
+    border-radius: 5px !important;
+  }
+
+.UserExchangeTableStatusGreen {
+    background-color: #10d876;
+    color: white;
+    font-size: 20px !important;
+    padding: 7px 18px !important;
+    border-radius: 5px !important;
+}
+
+.UserExchangeTableArrowRed {
+    background-color: red;
+    color: white;
+    padding: 7px 15px !important;
+    border-radius: 50px !important;
+}
+
+.UserExchangeTableArrowGreen {
+    background-color: #10d876;
+    color: white;
+    padding: 7px 15px !important;
+    border-radius: 50px !important;
+}
+
+@media (max-width: 450px) {
+
+    .UserExchangeBuyNowBtn {
+        margin-top: 30px !important;
+    }
+
+    .UserExchangePaymentMethod {
+        margin-top: 80px !important;
+    }
+
+    .UserExchangeSellPaymentMethod {
+        margin-top: 80px !important;
+    }
+}

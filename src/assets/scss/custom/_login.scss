@@ -1,0 +1,84 @@
+.Login {
+    padding: 70px 215px 150px 215px;
+    background-color: #eff1fe;
+}
+
+.LoginRow {
+    background-color: white;
+}
+
+.LoginLeft {
+    padding: 120px 250px 120px 250px !important;
+}
+
+.LoginRowWelcomeback {
+    color: #1d275a;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 35px;
+    font-family: Poppins, Roboto, "Helvetica Neue";
+}
+
+.LoginName {
+    margin-top: 60px !important;
+    .MuiInputBase-input {
+        font-size: 20px !important;
+        font-weight: 600 !important;
+    }
+}
+
+.LoginPassword {
+    margin-top: 40px !important;
+    .MuiInputBase-input {
+        font-size: 20px !important;
+        font-weight: 600 !important;
+    }
+}
+
+.LoginForgotPassword {
+    margin-top: 0px !important;
+    text-align: right !important;
+    color: #4b4b58;
+    font-size: 16px;
+    font-weight: 500 !important;
+    line-height: 35px;
+    font-family: Poppins, Roboto, "Helvetica Neue" !important;
+}
+
+.LoginRight {
+    padding: 200px 130px 200px 130px !important;
+}
+
+.LoginRowNewHere {
+    color: white !important;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 35px;
+    font-family: Poppins, Roboto, "Helvetica Neue";
+}
+
+.LoginRowRightText {
+    margin-top: 20px !important;
+    color: white !important;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 35px;
+    font-family: Poppins, Roboto, "Helvetica Neue";
+}
+
+@media (max-width: 450px) {
+    .Login {
+        padding: 0px !important;
+    }
+
+    .LoginLeft {
+        padding: 60px 25px 100px 25px !important;
+    }
+
+    .LoginRight {
+        padding: 150px 30px !important;
+    }
+}

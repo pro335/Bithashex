@@ -1,0 +1,38 @@
+.FaqItem {
+    margin-top: 70px !important;
+}
+
+.FaqItemNo {
+    padding: 10px 18px;
+    background-color: #1d275a;
+    color: white;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.FaqItemTitle {
+    font-size: 28px !important;
+    line-height: 35px;
+    font-family: Poppins, Roboto, "Helvetica Neue";
+    font-weight: 600;
+    color: #5f5e6c !important;
+}
+
+.FaqItemContent {
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: justify;
+    font-family: Poppins, Roboto, "Helvetica Neue";
+    color: #5e5d63;
+}
+
+@media (max-width: 450px) {
+    .FAQ {
+        padding: 50px 20px 50px 20px !important;
+    }
+
+    .FaqSearch {
+        margin-top: 30px !important;
+    }
+}

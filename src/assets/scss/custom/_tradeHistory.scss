@@ -1,0 +1,71 @@
+.TradeHistoryTable{
+    background-color: white !important;
+    thead{
+       background-color: white !important;
+       tr{
+          border-top: 1px solid rgba(0, 0, 0, 0.125) !important;
+          border-bottom: 1px solid rgba(0, 0, 0, 0.125) !important;
+        }
+    }
+    th {
+      font-size: 20px;
+      white-space: nowrap !important;
+      padding:12px 20px !important;
+      text-transform: capitalize !important;
+      font-family: Poppins, Roboto, "Helvetica Neue" !important;    
+    }
+    td {
+       font-size: 16px;
+       white-space: nowrap !important;
+       padding:12px 20px !important;
+       text-transform: capitalize !important;
+       font-family: Poppins, Roboto, "Helvetica Neue" !important;
+    }
+    // tbody{
+
+    // }
+ }
+
+.TradeHistoryRctCard {
+  margin-top: 35px !important;
+} 
+
+.TradeHistoryRctCardHeading {
+  font-size: 25px;
+  padding: 30px auto 15px 40px !important;
+  color: #21294e !important;
+}
+
+.rct-block-title-TradeHistoryRctCardHeadingDiv {
+  padding: 25px 40px;
+  position: relative;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125) !important;
+  // @include border(1px solid, $gray-300, bottom);
+.badge {
+  vertical-align: middle;
+}
+  h4 {
+  margin-bottom: 0;
+  color: $block-title-color;
+  font-size: $block-title-font-size;
+  text-transform: $block-title-transform;
+  font-weight: $block-title-font-weight;
+  line-height: 30px;
+}
+.contextual-link {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  a {
+    color: $block-contextual-color;
+    font-size: $block-contextual-font-size;
+    margin-right: 15px;
+    &:hover {
+      color: $blue;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+}

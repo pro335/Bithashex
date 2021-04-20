@@ -1,0 +1,23 @@
+.Exchange {
+    padding: 70px 50px 150px 50px;
+    background-color: #eff1fe;
+}
+
+.chartjs-render-monitor {
+    background-color: white;
+    // height: 850px !important;
+}
+
+.ExchangeChart {
+    padding-bottom: 30px !important;
+}
+
+@media (max-width: 450px) {
+    .Exchange {
+        padding: 50px 5px 50px 5px !important;
+    }
+
+    .rct-sidebar-wrap .rct-scroll > div:first-child, .rct-page .rct-scroll > div:first-child {
+        padding-bottom: 0px !important;
+    }
+}

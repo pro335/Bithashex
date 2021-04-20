@@ -1,0 +1,41 @@
+
+.Compliance {
+    height: auto;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 80px;
+    padding-bottom: 100px;
+    background-color: #eff1fe;
+}
+
+.ComplianceTopPart {
+    padding-left: 0;
+}
+
+.ComplianceRegistration {
+    margin-top: 70px !important;
+    font-size: 27px;
+    font-weight: 600;
+    font-family: Poppins, Roboto, "Helvetica Neue";
+    color: #5f5e6c;
+}
+
+
+.ResourcesContentItem {
+    margin-top: 30px;
+    font-size: 21px;
+    line-height: 40px;
+    font-family: Poppins, Roboto, "Helvetica Neue";
+    color: #5f5e6c;
+    text-align: justify;
+}
+
+@media (max-width: 450px) {
+    .Compliance1 {
+        padding: 100px 20px 100px 20px !important;
+    }
+
+    .ComplianceSearch {
+        margin-top: 30px !important;
+    }
+}

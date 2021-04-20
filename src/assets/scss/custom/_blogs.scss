@@ -1,0 +1,62 @@
+.BlogsCardBody {
+    padding-left: 2.5rem;
+    padding-right: 50px;
+    padding-bottom: 150px;
+}
+
+.BlogsOneCard {
+    margin-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.BlogsCardTitle {
+    color: #1d275a;
+    margin-top: 10px !important;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 35px;
+    font-family: Poppins, Roboto, "Helvetica Neue";
+}
+
+
+.BlogsCardContent {
+    margin-top: 20px !important;
+    color: #272738;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: justify;
+    font-family: Poppins, Roboto, "Helvetica Neue";
+}
+
+
+.BlogsCardContentAdmin {
+    margin-top: 20px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    color: #272738;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 20px;
+    font-family: Poppins, Roboto, "Helvetica Neue";
+}
+
+
+.BlogsCardContentDate {
+    margin-top: 20px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    color: #272738;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 20px;
+    font-family: Poppins, Roboto, "Helvetica Neue";
+}
+
+@media (max-width: 450px) {
+    .BlogsCardBody {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+}

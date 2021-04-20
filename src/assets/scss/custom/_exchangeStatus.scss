@@ -1,0 +1,112 @@
+.ExchangeStatusTopRow {
+    background-color: white !important;
+    padding: 20px 35px;
+}
+
+.ExchangeStatusTable{
+    background-color: white !important;
+    thead{
+       background-color: white !important;
+       tr{
+          border-top: 1px solid rgba(0, 0, 0, 0.125) !important;
+          border-bottom: 1px solid rgba(0, 0, 0, 0.125) !important;
+        }
+    }
+    th {
+      font-size: 20px;
+      white-space: nowrap !important;
+      padding:12px 20px !important;
+      text-transform: capitalize !important;
+      font-family: Poppins, Roboto, "Helvetica Neue" !important;    
+    }
+    td {
+      font-size: 16px;
+       white-space: nowrap !important;
+       padding:12px 20px !important;
+       text-transform: capitalize !important;
+       font-family: Poppins, Roboto, "Helvetica Neue" !important;
+    }
+    // tbody{
+
+    // }
+ }
+
+ .ExchangeShowingBTC {
+    border: 1px solid $gray-300;
+    border-radius: 10px !important;
+    width: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    height: auto !important;
+    box-shadow: $block-shadow;
+    &:before {
+      content: "";
+      position: absolute;
+      pointer-events: none;
+      top: 50%;
+      margin-top: $caret-width * -0.3;
+      right: 10px;
+      width: 0;
+      height: 0;
+      border: $caret-width solid transparent;
+      border-top-color: $gray-900;
+    }
+    select {
+      padding: 0.5rem 1rem; //5px 24px;
+      box-shadow: none;
+      background-color: white;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      text-transform: capitalize;
+      font-size: 20px;
+      font-family: Poppins, Roboto, "Helvetica Neue";
+      color: rgb(98, 96, 96);
+      &:focus {
+        outline: none;
+        background-color: #f0f1f5;
+      }
+    }
+}
+
+.ExchangeShowingBTC-sm {
+    @extend .app-sendSelectbox;
+    height: $input-height;
+    select {
+      height: $input-height !important;
+    }
+}
+
+.ExchangeShowingBTCFormGroup {
+    height: auto !important;
+    padding: 0;
+    margin: 0;
+}
+
+.ExchangeShowingBTCSelect {
+    height: auto !important;
+}
+
+.MuiInputBase-root {
+  font-family: Poppins, Roboto, "Helvetica Neue" !important;
+}
+
+.MuiOutlinedInput-input {
+  padding: 15px 14px !important;
+}
+
+.ExchangeStatusSearch {
+  margin-left: 30px !important;
+  font-size: 40px !important;
+}
+
+@media (max-width: 450px) {
+  
+  .ExchangeShowingBTC {
+    margin-top: 10px !important;
+  }
+
+  .ExchangeStatusSearch {
+    margin-top: 30px !important;
+  }
+}
